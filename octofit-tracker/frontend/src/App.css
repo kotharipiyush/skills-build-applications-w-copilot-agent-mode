@@ -1,0 +1,126 @@
+.App {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #c6ddff 0%, #eef4ff 35%, #f9f7ff 100%);
+  color: #13294b;
+}
+
+body {
+  background: #eef4ff;
+  color: #13294b;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #1b4f9b 0%, #0d6efd 100%);
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.nav-link.active {
+  color: #ffeb3b !important;
+}
+
+.app-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 4px;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgba(13, 110, 253, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.card-header {
+  background: rgba(13, 110, 253, 0.08);
+  border-bottom: 1px solid rgba(13, 110, 253, 0.12);
+}
+
+.card-body {
+  color: #172d4d;
+}
+
+.card-title,
+.page-heading {
+  color: #0d3b79;
+}
+
+.table {
+  background: #ffffff;
+}
+
+.table thead {
+  background: linear-gradient(90deg, rgba(13, 110, 253, 0.12), rgba(13, 110, 253, 0.02));
+}
+
+.table-hover tbody tr:hover {
+  background: rgba(13, 110, 253, 0.08);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #084dbc;
+  border-color: #084dbc;
+}
+
+.btn-outline-secondary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: rgba(13, 110, 253, 0.08);
+}
+
+.page-meta {
+  color: #475569;
+}
+
+a {
+  color: #0d6efd;
+}
+
+a:hover {
+  color: #084dbc;
+}
+
+.alert-info {
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0d3b79;
+  border-color: rgba(13, 110, 253, 0.2);
+}
+
+.alert-warning {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #7a5900;
+  border-color: rgba(255, 193, 7, 0.2);
+}
+
+.alert-danger {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #842029;
+  border-color: rgba(220, 53, 69, 0.2);
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-toolbar .btn {
+  min-width: 100px;
+}
