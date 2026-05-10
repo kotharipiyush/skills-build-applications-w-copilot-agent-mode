@@ -35,3 +35,4 @@ Checked endpoints against the local Django backend at http://127.0.0.1:8000/api
    Response sample:
    [{"id":"6a00ca2627ff7cd8a3ef3f67","name":"Web Swing","description":"Swinging through the city","suggested_for":[]},
     {"id":"6a00ca2627ff7cd8a3ef3f68","name":"Flight","description":"Flying workout","suggested_for":[]}]
+ 
